@@ -1,0 +1,5 @@
+package com.sbx.example1;
+
+public class secondactivity extends Activity {
+
+}

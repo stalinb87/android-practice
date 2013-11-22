@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Super Tarea 1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_content">Content</string>
+    <string name="make_call">Llamar</string>
+    <string name="detail_btn">Ver Detalles</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="image_description">DetailActivity</string>
+
+</resources>

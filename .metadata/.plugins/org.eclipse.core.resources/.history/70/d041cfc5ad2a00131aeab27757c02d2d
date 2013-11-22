@@ -1,0 +1,11 @@
+package com.sbx.example3;
+
+
+import android.appwidget.AppWidgetProvider;
+
+
+public class MainActivity extends AppWidgetProvider {
+
+	
+
+}

@@ -1,0 +1,25 @@
+package com.sbx.example3;
+
+import android.app.PendingIntent;
+import android.appwidget.AppWidgetManager;
+import android.appwidget.AppWidgetProvider;
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+
+
+public class MainActivity extends AppWidgetProvider {
+
+	@Override
+	public void onUpdate(Context context, AppWidgetManager appWidgetManager,
+			int[] appWidgetIds) {
+		// TODO Auto-generated method stub
+		for(int i=0; i<appWidgetIds.length; i++) {
+			int id = appWidgetIds[i];
+			Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse("http://google.com"));
+			PendingIntent pen = PendingIntent.getActivity(context, 0, in, 0); 
+		}
+		super.onUpdate(context, appWidgetManager, appWidgetIds);
+	}
+
+}

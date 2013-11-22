@@ -1,0 +1,11 @@
+package com.curso.semana2_1;
+
+import android.support.v4.app.Fragment;
+import android.webkit.WebView;
+
+public class CountryInfoFragment extends Fragment {
+	private WebView webview;
+	
+	
+	
+}

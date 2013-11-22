@@ -1,0 +1,12 @@
+package com.sbx.example3;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.appwidget.AppWidgetProvider;
+import android.view.Menu;
+
+public class MainActivity extends AppWidgetProvider {
+
+	
+
+}

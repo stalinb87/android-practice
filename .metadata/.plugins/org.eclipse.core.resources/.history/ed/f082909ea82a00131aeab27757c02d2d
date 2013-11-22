@@ -1,0 +1,18 @@
+package com.sbx.example1;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+
+public class secondactivity extends Activity {
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.secondactivity);
+	}
+	
+	public boolean onCreateOptionsMenu(Menu menu){
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}

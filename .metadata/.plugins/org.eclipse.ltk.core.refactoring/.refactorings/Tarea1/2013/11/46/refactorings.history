@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Tarea1/res/drawable-hdpi/ic_6-social-chat.png&apos; to &apos;comments.png&apos;" description="Rename resource &apos;ic_6-social-chat.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/drawable-hdpi/ic_6-social-chat.png" name="comments.png" stamp="1384439924957" updateReferences="true"/>
+</session>

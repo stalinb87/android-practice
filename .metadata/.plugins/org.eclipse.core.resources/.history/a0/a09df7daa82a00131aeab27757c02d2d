@@ -1,0 +1,20 @@
+package com.sbx.example1;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.widget.TextView;
+
+public class secondactivity extends Activity {
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.secondactivity);
+		TextView tv = (TextView)findViewById(R.id.textView1);
+	}
+	
+	public boolean onCreateOptionsMenu(Menu menu){
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}

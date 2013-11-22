@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.webkit.WebView"/>
+<fullyQualifiedTypeName name="com.sbx.foodlovers.R.id"/>
+<fullyQualifiedTypeName name="android.webkit.WebSettings"/>
+<fullyQualifiedTypeName name="android.webkit.WebViewClient"/>
+<fullyQualifiedTypeName name="android.webkit.ConsoleMessage"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="android.webkit.WebChromeClient"/>
+<fullyQualifiedTypeName name="android.webkit.ValueCallback"/>
+<fullyQualifiedTypeName name="android.net.Uri"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.content.ContentResolver"/>
+<fullyQualifiedTypeName name="android.provider.MediaStore"/>
+<fullyQualifiedTypeName name="android.provider.ContactsContract.CommonDataKinds.Photo"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="android.os.Environment"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="com.sbx.elfuete.R.id"/>
+<fullyQualifiedTypeName name="com.sbx.elfuete.MainActivity"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+</qualifiedTypeNameHistroy>

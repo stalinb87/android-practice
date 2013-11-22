@@ -1,0 +1,31 @@
+package com.curso.semana2_1;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		String[] arrayCountries = new String[] {
+			"Brasil", "Megico", "Republica Domincana", "Cuba", "Guatemala", "Ecuador"	
+		};
+		ArrayList<String> countries = new ArrayList<String>(Arrays.asList(arrayCountries));
+		
+		ArrayAdapter<String> adapter = new 
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}
