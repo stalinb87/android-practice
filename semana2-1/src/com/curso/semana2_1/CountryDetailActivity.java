@@ -30,6 +30,15 @@ public class CountryDetailActivity extends FragmentActivity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case R.id.action_share:
+			if(!country.equals("")){
+			String url = "http://es.m.wikipedia.org/wiki/"+ country;	
+			String message = getString(R.string.msg_share, country, url);
+			Intent intent = new Intent();
+			intent.setAction(Intent.ACTION_SEND);
+			intent.putExtra(Intent.EXTRA_TEXT, message);
+			intent.setType("text/plain");
+			startActivity(Intent.createChooser(intent, getString(R.string.action_share)));
+			}
 			return true;		
 
 		default:
