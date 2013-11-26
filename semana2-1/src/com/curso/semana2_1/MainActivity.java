@@ -6,8 +6,9 @@ import java.util.Arrays;
 import android.os.Bundle;
 import android.content.Intent;
 import android.content.res.Configuration;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -20,7 +21,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends FragmentActivity implements OnItemClickListener{
+public class MainActivity extends ActionBarActivity implements OnItemClickListener{
 	
 	String country = "";
 	
@@ -38,6 +39,8 @@ public class MainActivity extends FragmentActivity implements OnItemClickListene
 		list.setAdapter(adapter);
 		list.setOnItemClickListener(this);
 		registerForContextMenu(list);
+		ActionBar action = getSupportActionBar();
+		action.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 	}
 	@Override
 	public void onCreateContextMenu(ContextMenu menu, View v,
